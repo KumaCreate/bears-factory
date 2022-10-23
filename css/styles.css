@@ -1791,6 +1791,9 @@ animation: blink 1s ease infinite;
   .border-none {
     border: none;
   }
+  p {
+    font-size: 12px;;
+  }
 }
 
 @media screen and (max-width: 640px) {
