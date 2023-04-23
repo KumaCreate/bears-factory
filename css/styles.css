@@ -1765,11 +1765,11 @@ animation: blink 1s ease infinite;
   }
   .header-nav-wrapper .logo {
     display: inline-block;
-    width: 340px;
+    width: 140px;
     padding:15px 0;
     text-align: center;
     border-bottom: solid 5px #414a52;
-    background-color: #414a52;
+    /* background-color: #414a52; */
     font-size: 18px;
   }
   th {
@@ -1843,7 +1843,7 @@ animation: blink 1s ease infinite;
 @media screen and (max-width: 480px) {
   .header-nav-wrapper {
     border-bottom: solid 5px #f3cf00f6;
-    background-color: #414a52;
+    /* background-color: #414a52; */
   }
   .header-nav-wrapper .logo {
     width: 140px;
