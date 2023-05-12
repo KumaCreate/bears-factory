@@ -425,7 +425,7 @@ textarea {
 .carousel-cell {
   display: table;
   width: 100%;
-  height: calc(100vh - 20em);
+  height: calc(100vh - 10em);
   margin-right: 10px;
   background-image: url(../img/yukineokuma.jpg);
   background-position: center;
