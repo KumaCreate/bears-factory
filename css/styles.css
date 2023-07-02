@@ -1368,7 +1368,7 @@ footer ul li a {
   color: #fff;
 }
 
-footer ul li a:hover {
+footer ul li a:hover, a:focus{
   color: #f3cf00f6;
 }
 
@@ -1609,7 +1609,7 @@ animation: blink 1s ease infinite;
     display: block;
     padding-bottom: 40px;
     color: #fff;
-  } 
+  }
   .header-nav-wrapper nav ul li a:before {
     display: none;
   } */
