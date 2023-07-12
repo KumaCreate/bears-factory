@@ -568,6 +568,14 @@ textarea {
   color: #f3cf00f6;
 }
 
+.tag {
+  color: #fff;
+}
+
+.tag:hover {
+  color: #f3cf00f6;
+}
+
 /* .header-nav-wrapper nav ul li a:before {
   position: absolute;
   bottom: 0;
