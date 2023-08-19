@@ -157,6 +157,10 @@ p {
   color: #414a52;
 }
 
+p span {
+  display: inline-block;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 300;
@@ -1811,6 +1815,9 @@ animation: blink 1s ease infinite;
 }
 
 @media screen and (max-width: 640px) {
+  h4 {
+    font-size: 15px;
+  }
   .video-js {
     width: 100%;
   }
