@@ -1397,8 +1397,8 @@ footer .footer-branding .footer-branding-logo {
 }
 
 footer .footer-nav {
-  padding-top: 35px;
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  padding-top: 15px;
+  /* border-top: solid 1px rgba(255, 255, 255, 0.15); */
 }
 
 footer .footer-nav ul.footer-primary-nav {
@@ -1889,4 +1889,83 @@ animation: blink 1s ease infinite;
 @keyframes blink {
 	0% {opacity: 0;}
 	100% {opacity: 1;}
+}
+
+/* -- SVG CSS -- */
+
+.yellow{
+  background-color:#f3eb00;
+  width:100%;
+  /* height:5px; */
+  padding:0;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+}
+
+.svg-separator{
+  display: block;
+  background: 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  -webkit-transform: translateY(-100%) translateY(2px);
+  transform: translateY(-100%) translateY(2px);
+  width: 100%;
+}
+.svg-separator.bottom{
+  top: auto;
+  bottom: 0;
+}
+.sep1{
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep2 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep3 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep4 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep5 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep6 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep7 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep8 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep9 {
+  transform: translateY(0%) translateY(-2px) scale(-1,-1);
+  transform-origin: bottom;
+}
+.sep10 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep11 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
+}
+.sep12 {
+  transform: translateY(-100%) translateY(2px) scale(1,1);
+  transform-origin: top;
 }
