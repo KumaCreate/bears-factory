@@ -1712,8 +1712,8 @@ animation: blink 1s ease infinite;
     margin-bottom: 20px;
   }
   footer .footer-nav {
-    padding-top: 20px;
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    padding-top: 12px;
+    /* border-top: solid 1px rgba(255, 255, 255, 0.15); */
   }
   footer .footer-nav ul.footer-primary-nav {
     display: block;
