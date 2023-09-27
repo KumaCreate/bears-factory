@@ -119,7 +119,7 @@ table {
   border-left: 1px solid #ddd; */
 }
 
-.insta-table>tbody>tr>th {
+.insta-table tbody tr th {
   line-height: 40.85;
 }
 
