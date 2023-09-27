@@ -119,6 +119,10 @@ table {
   border-left: 1px solid #ddd; */
 }
 
+.table>tbody>tr>th {
+  line-height: 40.85;
+}
+
 caption,
 th,
 td {
