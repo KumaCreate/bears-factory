@@ -1793,6 +1793,9 @@ animation: blink 1s ease infinite;
   th {
     width: 240px;
   }
+  .insta-table tbody tr th {
+    width: 336px;
+  }
   .latest-articles article.article-post .article-image {
     height: 126px;
     max-height: 150px;
