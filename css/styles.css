@@ -1868,10 +1868,6 @@ animation: blink 1s ease infinite;
 }
 
 @media screen and (max-width: 480px) {
-  .header-nav-wrapper {
-    border-bottom: solid 5px #f3cf00f6;
-    /* background-color: #414a52; */
-  }
   .header-nav-wrapper .logo {
     width: 140px;
   }
