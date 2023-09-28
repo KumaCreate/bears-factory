@@ -1821,7 +1821,10 @@ animation: blink 1s ease infinite;
 
 @media screen and (max-width: 640px) {
   h4 {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  h5 {
+    font-size: 5px;
   }
   .video-js {
     width: 100%;
