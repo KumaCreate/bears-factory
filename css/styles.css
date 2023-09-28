@@ -1793,7 +1793,7 @@ animation: blink 1s ease infinite;
   th {
     width: 240px;
   }
-  .insta-table tbody tr th {
+  .insta-table tbody tr td {
     width: 336px;
   }
   .latest-articles article.article-post .article-image {
