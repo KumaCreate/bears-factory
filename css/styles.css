@@ -442,6 +442,16 @@ textarea {
   background-size: cover;
 }
 
+.carousel-cell-2 {
+  display: table;
+  width: 100%;
+  height: calc(100vh - 10em);
+  margin-right: 10px;
+  background-image: url(../img/working_bear.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .flickity-prev-next-button {
   display: none;
 }
@@ -1838,7 +1848,7 @@ animation: blink 1s ease infinite;
   .mouse-container {
     display: none;
   }
-  .carousel-cell {
+  .carousel-cell, .carousel-cell-2 {
     height: 300px;
   }
   header.hero h1 {
