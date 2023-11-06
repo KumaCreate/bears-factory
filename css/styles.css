@@ -185,21 +185,20 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   font-family: 'Qarkine', cursive;
-  text-align: center;
+  margin: 7px 0 65px 60px;
 }
 
-/* h4:after {
-  display: inline-block;
+h4:after {
+  display: block;
   width: 14px;
-  height: 26px;
+  height: 2px;
   margin-top: 15px;
   content: "";
   background-color: #f3cf00f6;
-  text-align: center;
-} */
+}
 
 h5 {
   font-size: 12px;
@@ -320,7 +319,7 @@ a.text-link:hover:after {
 }
 
 .has-padding {
-  padding: 130px 0;
+  padding: 90px 0;
 }
 
 .has-padding-tall {
@@ -1847,7 +1846,7 @@ animation: blink 1s ease infinite;
 
 @media screen and (max-width: 640px) {
   h4 {
-    font-size: 15px;
+    font-size: 12px;
   }
   h5 {
     font-size: 8px;
