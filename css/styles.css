@@ -1411,6 +1411,10 @@ footer .footer-nav {
   /* border-top: solid 1px rgba(255, 255, 255, 0.15); */
 }
 
+footer .footer-nav ul.footer-primary-nav li.footer-share-2 {
+  display: none;
+}
+
 footer .footer-nav ul.footer-primary-nav {
   display: inline-block;
   margin-bottom: 30px;
@@ -1420,6 +1424,10 @@ footer .footer-nav ul.footer-primary-nav li {
   display: inline-block;
   margin-right: 50px;
   font-family: 'Henny Penny', cursive;
+}
+
+footer .footer-nav ul.footer-primary-nav li.footer-share-2 {
+  display: none;
 }
 
 footer .footer-nav ul.footer-primary-nav li:last-child {
@@ -1710,9 +1718,9 @@ animation: blink 1s ease infinite;
   .freebies .content-right {
     padding-left: 15px;
   }
-  footer .footer-nav ul.footer-primary-nav li {
-    margin-right: 40px;
-  }
+  /* footer .footer-nav ul.footer-primary-nav li {
+    margin-right: 0px;
+  } */
   section.get-started h2 {
     line-height: 42px;
     margin: 0 0 20px;
@@ -1739,18 +1747,24 @@ animation: blink 1s ease infinite;
     margin-bottom: 20px;
   }
   footer .footer-nav {
-    padding-top: 12px;
+    padding-top: 5px;
     /* border-top: solid 1px rgba(255, 255, 255, 0.15); */
   }
   footer .footer-nav ul.footer-primary-nav {
-    display: block;
+    display: flex;
     margin-bottom: 0;
   }
   footer .footer-nav ul.footer-primary-nav li {
-    display: block;
-    margin: 0 0 20px;
+    /* display: block;
+    margin: 0 0 20px; */
+    text-align: center;
+    width:100%;
     padding: 15px 0;
+    margin-right: 0px;
     border-bottom: dashed 1px rgba(255, 255, 255, 0.25);
+  }
+  footer .footer-nav ul.footer-primary-nav li.footer-share-2 {
+    display: inline-block;
   }
   footer ul li a {
     display: block;
@@ -1766,10 +1780,10 @@ animation: blink 1s ease infinite;
     margin-top: 10px;
   }
   footer .footer-nav ul.footer-share > li {
-    display: block;
-    margin: 0 0 20px;
+    display: none;
+    /* margin: 0 0 20px;
     padding: 15px 0;
-    border-bottom: dashed 1px rgba(255, 255, 255, 0.25);
+    border-bottom: dashed 1px rgba(255, 255, 255, 0.25); */
   }
   .share-dropdown {
     top: auto;
