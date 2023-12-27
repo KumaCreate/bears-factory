@@ -1832,9 +1832,9 @@ height: 355px;
   th {
     width: 240px;
   }
-  .insta-table tbody tr td {
+  /* .insta-table tbody tr td {
     width: 336px;
-  }
+  } */
   .latest-articles article.article-post .article-image {
     height: 126px;
     max-height: 150px;
