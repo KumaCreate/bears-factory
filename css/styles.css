@@ -535,6 +535,13 @@ textarea {
   background-color: #fff;
 }
 
+.fixed {
+  position: fixed;
+  opacity: 0.85;
+  width: 100%;
+  height: 85px;
+}
+
 .header-nav-wrapper .logo {
   display: inline-block;
   width: 340px;
@@ -557,6 +564,7 @@ textarea {
   display: inline-block;
   margin-right: 60px;
   padding: 10px 0 0px;
+  /* justify-content: flex-end; */
 }
 
 .header-nav-wrapper nav ul {
@@ -822,11 +830,12 @@ textarea {
 
 header.hero {
   position: relative;
+  /* z-index: -1; */
   display: table;
   width: 100%;
   /* height: calc(100vh - 8.2em); */
   max-height: 760px;
-  /* padding-top: 10px; */
+  padding-top: 85px;
 }
 
 header.hero .hero-bg {
@@ -1623,7 +1632,7 @@ height: 355px;
 
 @media screen and (max-width: 1024px) {
   header.hero {
-    padding-top: 0px;
+    padding-top: 85px;
   }
   .primary-nav-wrapper {
     display: none;
@@ -1820,6 +1829,12 @@ height: 355px;
   div.mouse-container {
     display: none;
   }
+  header.hero {
+    padding-top: 53px;
+  }
+  .fixed {
+    height: 53px;
+  }
   .header-nav-wrapper .logo {
     display: inline-block;
     width: 140px;
@@ -1920,6 +1935,12 @@ height: 355px;
   .navicon {
     padding: 52px 35px;
     background-color: transparent;
+  }
+  header.hero {
+    padding-top: 48px;
+  }
+  .fixed {
+    height: 48px;
   }
   .header-nav-wrapper .logo {
     border-bottom: none;
