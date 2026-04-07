@@ -1,4 +1,6 @@
-# "Synthetica" One Page Website Template
+# "Synthetica" One Page Website Template 
+
+# Test
 
 "Synthetica" is a one page website template made by [Peter Finlan](http://peterfinlan.com/) exclusively for Codrops.
 
